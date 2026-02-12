@@ -36,7 +36,6 @@ document.getElementById('activityFinish').addEventListener('click', () => {
   result.textContent = `Super ! On ${futureAction} et on mangera ${foodPhrase} pour la Saint‑Valentin. 🐨`;
 
   // Ouvrir le client mail via mailto: (remplace l'adresse par la tienne)
-  const recipient = 'laszlochomel@gmail.com'; // adresse fournie par l'utilisateur
   const subject = encodeURIComponent('Invitation Saint-Valentin');
   const bodyText = `Maéline,\r\n\r\nSuper ! On ${futureAction} et on mangera ${foodPhrase} pour la Saint‑Valentin. 🐨\r\n\r\nAvec toi,\r\n`;
   const body = encodeURIComponent(bodyText);
